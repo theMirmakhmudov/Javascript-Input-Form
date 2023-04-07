@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+.add {
+  width: 400px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+  padding: 20px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  line-height: 2;
+  border-radius: 10px;
+  top: 10px;
+}
+.add input {
+  font-size: 20px;
+  background: none;
+  outline: none;
+  border: none;
+  color: white;
+  margin: 10px 0px;
+  border-bottom: 1px solid white;
+  padding: 5px;
+}
+.add input:nth-child(1) {
+  text-transform: uppercase;
+}
+.add input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.498);
+  text-transform: capitalize;
+}
+.add input::placeholder {
+  color: rgba(255, 255, 255, 0.498);
+  text-transform: capitalize;
+}
+.add button {
+  padding: 7px 20px;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.add button:nth-child(1) {
+  background: green;
+}
+
+#demo {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row nowrap;
+  padding: 40px 0px;
+}
+#demo .box {
+  width: 300px;
+  background: teal;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+#demo .box img {
+  width: 250px;
+  height: 350px;
+  border-radius: 20px;
+}/*# sourceMappingURL=style.css.map */
